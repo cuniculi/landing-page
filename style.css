@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo {
+    height: 48px;
+    width: auto;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-links{
+    display: flex;
+    gap: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 12px;
+    background-color: #1f2937;
+    padding: 38px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    inline-size: 350px;
+    margin-bottom: 0;
+    color: white
+}
+
+.hero-p {
+    inline-size: 400px;
+    margin-top: 8px;
+    color: whitesmoke;
+}
+
+.hero-image {
+    max-width: 400px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 7px 23px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+button.sign-up {
+    border: 1px solid #3882f6;
+}
